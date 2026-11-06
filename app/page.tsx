@@ -5,8 +5,6 @@ import { motion } from 'framer-motion';
 import { BookOpen, Download, ShieldCheck, HeartHandshake, ArrowRight, Mail, Phone, Landmark, Lock } from 'lucide-react';
 
 export default function GuiaDaMulherLandingPage() {
-  const currentYear = 2026;
-
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -189,7 +187,7 @@ export default function GuiaDaMulherLandingPage() {
             <p>(71) 98300-8001</p>
           </div>
           <p className="mt-8 text-sm text-slate-400">
-            © {currentYear} Advogado Nômade. Todos os direitos reservados.
+            © 2026 Advogado Nômade. Todos os direitos reservados.
           </p>
         </div>
       </footer>
