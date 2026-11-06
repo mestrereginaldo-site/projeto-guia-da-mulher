@@ -4,6 +4,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Download, ShieldCheck, HeartHandshake, ArrowRight, Mail, Phone, Landmark, Lock } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default function GuiaDaMulherLandingPage() {
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
