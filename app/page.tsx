@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { BookOpen, Download, ShieldCheck, HeartHandshake, ArrowRight, Mail, Phone, Landmark, Lock } from 'lucide-react';
 
 export default function GuiaDaMulherLandingPage() {
+  const currentYear = 2026;
+
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -114,7 +116,6 @@ export default function GuiaDaMulherLandingPage() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Card Download 1 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
               <div>
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
@@ -128,7 +129,6 @@ export default function GuiaDaMulherLandingPage() {
               </button>
             </div>
 
-            {/* Card Download 2 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
               <div>
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
@@ -142,7 +142,6 @@ export default function GuiaDaMulherLandingPage() {
               </button>
             </div>
             
-            {/* Card Download 3 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
               <div>
                 <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
@@ -190,7 +189,7 @@ export default function GuiaDaMulherLandingPage() {
             <p>(71) 98300-8001</p>
           </div>
           <p className="mt-8 text-sm text-slate-400">
-            © {new Date().getFullYear()} Advogado Nômade. Todos os direitos reservados.
+            © {currentYear} Advogado Nômade. Todos os direitos reservados.
           </p>
         </div>
       </footer>
